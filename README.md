@@ -204,6 +204,7 @@ wget https://raw.githubusercontent.com/laobanbiefangcu/WireGuard/main/wireguard.
 #### 方式二：克隆仓库
 ```bash
 git clone https://github.com/laobanbiefangcu/WireGuard.git
+
 cd WireGuard
 ```
 
@@ -736,3 +737,4 @@ PersistentKeepalive = 25  # 保持连接活跃
 ![Footer](https://img.shields.io/badge/Thank_you_for_using-WireGuard_Manager-blue?style=for-the-badge&logo=wireguard)
 
 </div>
+
