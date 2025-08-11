@@ -198,12 +198,12 @@ graph TB
 
 #### 方式一：直接下载
 ```bash
-wget https://raw.githubusercontent.com/laobanbiefangcu/WireGuard/main/wireguard.sh
+wget https://raw.githubusercontent.com/laobanbiefangcu/WireGuard/main/wireguard.sh && bash wireguard.sh
 ```
 
 #### 方式二：克隆仓库
 ```bash
-git clone https://github.com/username/wireguard-manager.git && cd wireguard-manager
+git clone https://github.com/username/wireguard-manager.git && cd wireguard-manager && bash wireguard.sh
 ```
 
 #### 方式三：一键安装
@@ -735,3 +735,4 @@ PersistentKeepalive = 25  # 保持连接活跃
 ![Footer](https://img.shields.io/badge/Thank_you_for_using-WireGuard_Manager-blue?style=for-the-badge&logo=wireguard)
 
 </div>
+
