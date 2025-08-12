@@ -495,7 +495,7 @@ peer = (public-key = {peer.get('public_key', '')}, allowed-ips = "{peer.get('all
         
         dns_formatted = str(interface.get('dns', ['119.29.29.29', '2402:4e00::'])).replace("'", '"')
         
-        config = f"  - {{name: 🇨🇳 ubuntu{i}, type: wireguard, server: {peer.get('server', '')}, port: {peer.get('port', 51820)}, ip: {interface.get('ipv4', '')}, ipv6: {interface.get('ipv6', '')}, private-key: {interface.get('private_key', '')}, public-key: {peer.get('public_key', '')}, AllowedIPs = ::/0, 0.0.0.0/0, dns: {dns_formatted}, udp: true, benchmark-url: 'http://192.168.1.1'}}"
+        config = f"  - {{name: 🇨🇳 Ubuntu{i}, type: wireguard, server: {peer.get('server', '')}, port: {peer.get('port', 51820)}, ip: {interface.get('ipv4', '')}, ipv6: {interface.get('ipv6', '')}, private-key: {interface.get('private_key', '')}, public-key: {peer.get('public_key', '')}, AllowedIPs = ::/0, 0.0.0.0/0, dns: {dns_formatted}, udp: true, benchmark-url: 'http://192.168.1.1'}}"
         
         clash_configs.append(config)
     
